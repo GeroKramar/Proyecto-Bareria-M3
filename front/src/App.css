@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Establece la altura completa */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor principal toma al menos el 100% de la altura de la vista del navegador */
+  }
+  
+  .content {
+    flex: 1; /* Hace que este contenedor crezca y tome todo el espacio disponible, empujando el footer hacia abajo */
+  }
